@@ -4,24 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Document</title>
 </head>
+
 <body>
     <nav>
-    <div>View Highscores</div>
-    <div>Time: <span id="timer"></span></div>
+        <div>View Highscores</div>
+        <div>Time: <span id="timer"></span></div>
     </nav>
+
     <main>
     <div>
-    <h3>Coding Quiz Challenge</h3>
-    <p>
-        Try to answer the following code-related questions within the time
-        limit. Keep in mind that incorrect answers will penalize your
-        score/time by ten seconds!
-</p>
-<button id="startBtn">Start Quiz</button>
+        <div id="introDiv" class="show">
+            <h3>Coding Quiz Challenge</h3>
+        <p>
+            Try to answer the following code-related questions within the time
+            limit. Keep in mind that incorrect answers will penalize your
+            score/time by ten seconds!
+        </p>
+        </div>
+        <div id="quizQuestions" class="noshow">
+            <h2>This is quiz question division</h2>
+        </div>
+<button id="startBtn" class="show">Start Quiz</button>
     </div>
 </main>
-<script src="./assets/js/index.js"></script>
+<script src="./assets/js/script.js"></script>
 </body>
+
 </html>
